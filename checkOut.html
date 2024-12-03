@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+
+  <link rel="stylesheet" href="css/CheckOut.css">
+  <title>Checkout Page</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="forms-container">
+      <div class="checkout-form">
+        <form action="#" class="form">
+          <h2 class="title">Checkout</h2>
+          <div class="input-field">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="Full Name" required />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="Email Address" required />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-map-marker-alt"></i>
+            <input type="text" placeholder="Shipping Address" required />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-credit-card"></i>
+            <input type="text" id="cardNumber" placeholder="Card Number" required />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-calendar-alt"></i>
+            <input type="text" id="expiryDAte" placeholder="Expiration Date (MM/YY)" required />
+          </div>
+          <div class="input-field">
+            <i class="fas fa-lock"></i>
+            <input type="text" id="cvv" placeholder="CVV" required />
+          </div>
+          <input type="submit" class="btn solid" value="Place Order" />
+        </form>
+      </div>
+    </div>
+    <div class="panels-container">
+      <div class="panel left-panel">
+        <div class="content">
+          <h3>Complete your purchase!</h3>
+          <p>Enter your details and finalize your order.</p>
+        </div>
+        <img src="img/checkout.svg" class="image" alt="Checkout" />
+      </div>
+    </div>
+  </div>
+  <script src="JS/checkOut.js"></script>
+</body>
+</html>

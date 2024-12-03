@@ -1,0 +1,99 @@
+:root{
+  --white:#fff;
+  --bg-color: #313131;
+  --black500:#ffffff;
+  --black400:#eeebeb;
+  --grey500:#acacac;
+  --grey400:#f0f0f0;
+  --grey300:#aaa;
+  --blue500:#ca44eb;
+  --blue400:#d759fd;
+  --blue300:#b34de2;
+  --blue200:#694768;
+}
+
+.profile-page{
+  background-color: var(--bg-color)!important;
+}
+ /* Add this to the bottom of your CSS file */
+.profile-page .container:before {
+    display: none;
+  }
+   
+  
+  .profile-pic-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  #profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #ffffff;
+  }
+  
+  #upload-button {
+    cursor: pointer;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="password"] {
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    outline: none;
+    box-shadow: none;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-bottom-color: #00b4d8;
+  }
+  
+  .profile-pic-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  /* Make the button stack below the image */
+  #upload-button {
+    display: block;
+    margin: 10px auto;
+    color: var(--black500);
+  }
+
+  /* Form customization */
+  @media (min-width: 768px) {
+    #profile-form {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  }
+
+  /* Align buttons side by side */
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .modal-content {
+    background-color: #fff; 
+    color: #000;
+  }
+
+  @media (max-width: 600px) {
+    #profile-pic {
+      width: 120px;
+      height: 120px;
+    }
+  
+    #upload-button {
+      font-size: 14px;
+    }
+  }
+  

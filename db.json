@@ -1,0 +1,137 @@
+{
+  "products": [
+    {
+      "id": 4,
+      "title": "Head Phone",
+      "description": "Bose portable Bluetooth speaker offering .",
+      "price": 199.99,
+      "image": "images/headPhone.png"
+    },
+    {
+      "id": 5,
+      "title": "Huawie Y7a",
+      "description": "Sony's top-of-the-line noise-canceling ",
+      "price": 349.99,
+      "image": "images/blackPhone.png"
+    },
+    {
+      "id": 6,
+      "title": "Amazon Echo Dot 5th Gen",
+      "description": "Amazon's compact smart speaker with Alexa .",
+      "price": 1999.99,
+      "image": "images/monitor1.png"
+    },
+    {
+      "id": 7,
+      "title": "GoPro HERO11 White",
+      "description": "GoPro's rugged action camera, perfect for 5.3K video and extreme sports.",
+      "price": 499.99,
+      "image": "images/whiteCamera.png"
+    },
+    {
+      "id": 8,
+      "title": "Microsoft Surface Monitor 5",
+      "description": "Microsoft's high-performance Screen with a stunning touchscreen display.",
+      "price": 1299.99,
+      "image": "images/monitor2.png"
+    },
+    {
+      "id": 9,
+      "title": "Anker Portable Power Bank",
+      "description": "Anker's high-capacity power bank with 20000mAh for all-day charging.",
+      "price": 39.99,
+      "image": "images/charger.png"
+    },
+    {
+      "id": 10,
+      "title": "DJI Mini 3 Pro Drone",
+      "description": "DJI's lightweight drone capable of shooting 4K video for stunning aerial shots.",
+      "price": 759.99,
+      "image": "images/drone.png"
+    },
+    {
+      "id": 11,
+      "title": "Razer DeathAdder V2 Mouse",
+      "description": "Razer's ergonomic gaming mouse with customizable RGB lighting for precision.",
+      "price": 69.99,
+      "image": "images/mouse.png"
+    },
+    {
+      "id": 12,
+      "title": "Philips Hue Smart Bulb",
+      "description": "Philips' smart LED bulb with adjustable colors and brightness for your home.",
+      "price": 34.99,
+      "image": "images/mousePad.png"
+    },
+    {
+      "id": 13,
+      "title": "Bose SoundLink Revolve Speaker",
+      "description": "Bose portable Bluetooth speaker offering 360-degree sound and deep bass.",
+      "price": 199.99,
+      "image": "images/smartSpeaker.png"
+    },
+    {
+      "id": 14,
+      "title": "GoPro HERO9 Black",
+      "description": "GoPro's action camera with enhanced stabilization for smooth footage.",
+      "price": 399.99,
+      "image": "images/cameraCanonStand.png"
+    },
+    {
+      "id": 15,
+      "title": "Logitech Gaming Keyboard",
+      "description": "Logitech's high-performance gaming mouse designed for responsive gameplay.",
+      "price": 79.99,
+      "image": "images/whiteKeyboard.png"
+    },
+    {
+      "id": 16,
+      "title": "Logitech Bluetooth Keyboard",
+      "description": "Logitech's Bluetooth keyboard with a sleek design and long battery life.",
+      "price": 129.99,
+      "image": "images/keyboardWhiteBlue.png"
+    },
+    {
+      "id": 17,
+      "title": "smart Watch",
+      "description": "Canon's premium camera stand for stable shooting and easy adjustments.",
+      "price": 699.99,
+      "image": "images/smartWatch.png"
+    },
+    {
+      "id": 18,
+      "title": "HP Laptop",
+      "description": "HP's lightweight laptop with powerful performance for everyday tasks.",
+      "price": 799.99,
+      "image": "images/labBackgrounde.png"
+    },
+    {
+      "id": 19,
+      "title": "iPhone",
+      "description": "Anker's compact and fast-charging USB adapter for all your devices.",
+      "price": 29.99,
+      "image": "images/greenPhone.png"
+    },
+    {
+      "id": 20,
+      "title": "airPods",
+      "description": "Apple's wireless airPods with a slim design and responsive keys.",
+      "price": 129.99,
+      "image": "images/airpods.png"
+    },
+    {
+      "id": 21,
+      "title": "Head Phone",
+      "description": "still-life-wireless-cyberpunk-headphones",
+      "price": 129.99,
+      "image": "images/still-life-wireless-cyberpunk-headphones.png"
+    },
+    {
+      "id": 22,
+      "title": "USB Cable",
+      "description": "still-life-wireless-cyberpunk-headphones",
+      "price": 129.99,
+      "image": "images/usbCable.png"
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <title>ElectroX</title>
+</head>
+
+<body class="bg-basicColor1 txt-basicColor1 ">
+
+    <nav class="navbar fixed-top px-3 navbar-expand-lg  bg-basicColor1 txt-basicColor1">
+        <div class="container-fluid ">
+            <a class="navbar-brand txt-basicColor1 fs-4" href="index.html">ElectroX</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link txt-basicColor1" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link txt-basicColor1" href="categories.html">Categories</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link wishList" href="#">WishList</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cruds.html">CRUDS</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+
+                </form>
+
+                <div class="icon-cart">
+                    <i class="fa fa-shopping-cart mx-3"></i>
+                </div>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" id="logout-btn" href="./Signinandup.html">Log out</a>
+                    </li>
+                    <!-- Add this to your navbar -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="signDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Sign
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="signDropdown">
+                         <li><a class="dropdown-item" href="./Signinandup.html">Log In</a></li>
+                         <li><a class="dropdown-item" href="./Signinandup.html">Sign Up</a></li>
+                         <li><a class="dropdown-item" href="./Profile.html">Profile</a></li>
+                   </ul>
+               </li>
+  
+                </ul>
+
+            </div>
+        </div>
+
+
+    </nav>
+
+
+
+    <header class=" px-4 ">
+        <div class="mb-4 bg-basicColorGradientTop innerHeader rounded-4 ">
+            <div class="d-flex  m-auto w-75">
+
+                <div class="flex-column justify-content-center align-content-center">
+                    <p>SHOP TO GET WHAT YOU LOVE</p>
+                    <h1 class=" w-75 ">TIMEPIECES THAT MAKE A STATEMENT UP TO <br> <span class="fw-bold">40 %
+                            OFF</span></h1>
+                </div>
+                <div class="img">
+                    <img class="" src="images/iphone.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+
+    <div class="cat justify-content-center d-flex flex-wrap">
+
+        <div class="p-3 ps-md-0 row col-md-3 col-sm-6 col-12">
+            <div class=" bg-basicColorGradientRight rounded-4 d-flex ">
+                <div class="text p-3 d-flex flex-column  justify-content-evenly">
+                    <h3 class="text-uppercase">Tablets</h3>
+                    <a href="tablet.html" class="btn btn-light"> Browse </a>
+                </div>
+                <div class="image w-75 d-flex">
+                    <img class="w-100 align-self-center" src="images/tablet.png" alt="smart Watch">
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="p-3 row col-md-3 col-sm-6 col-12">
+            <div class=" bg-basicColorGradientTop rounded-4 d-flex ">
+                <div class="text p-3 d-flex flex-column  justify-content-evenly">
+                    <p class="text-uppercase  h3 ">smart phones</p>
+                    <a href="smartPhone.html" class="btn btn-light">Browse</a>
+                </div>
+                <div class="image d-flex w-50">
+                    <img class="w-100 align-self-center" src="images/blackPhone.png" alt="smart Watch">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="p-3 pe-md-0 row col-md-6 col-sm-6 col-12">
+            <div class=" bg-basicColorGradientTop rounded-4 d-flex ">
+
+                <div class="text p-3 d-flex flex-column  justify-content-evenly">
+                    <p class="text-uppercase text-center h3 "> all DEVICES you <br>need </p>
+
+                    <a href="labtops.html" class="btn btn-light">Browse</a>
+                </div>
+                <div class="image p-3 w-60 d-flex">
+                    <img class="w-100 align-self-center" src="images/labBackgrounde.png" alt="smart Watch">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="p-3 ps-md-0 row col-md-6 col-sm-6 col-12">
+            <div class=" bg-basicColorGradientBottom rounded-4 d-flex ">
+
+                <div class="image d-flex w-50">
+                    <img class="w-100 align-self-center" src="images/canonitems.png" alt="smart Watch">
+                </div>
+                <div class="text  p-3 d-flex flex-column  justify-content-evenly">
+                    <p class="text-uppercase  h3 ">Different Items</p>
+                    <a href="vehicles.html" class="btn btn-light">Browse</a>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="p-3 row col-md-3 col-sm-6 col-12">
+            <div class=" bg-basicColorGradientRight rounded-4 d-flex ">
+                <div class="text p-3 d-flex flex-column  justify-content-evenly">
+                    <p class="text-uppercase  h3 ">Modern Watches</p>
+                    <a href="watches.html" class="btn btn-light">Browse</a>
+                </div>
+                <div class="image d-flex w-60">
+                    <img class="w-100 align-self-center" src="images/smartWatch.png" alt="smart Watch">
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="p-3 pe-md-0 row col-md-3 col-sm-6 col-12">
+            <div class=" bg-basicColorGradientRight rounded-4 d-flex flex-md-column ">
+                <div class="image d-flex w-50">
+                    <img class="w-100 align-self-center" src="images/usbCable.png" alt="smart Watch">
+                </div>
+                <div class="text p-3 d-flex flex-column  justify-content-evenly">
+                    <p class="text-uppercase  h3 ">Mobile Accessories</p>
+                    <a href="mobileAccessories.html" class="btn btn-light">Browse</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="advantages row my-4 ">
+        <div class="d-flex col-md-3 col-6 justify-content-center">
+            <i class="fa-solid fa-truck-fast text-white me-3"></i>
+            <p>Free Shipping</p>
+        </div>
+        <div class="d-flex col-md-3 col-6 justify-content-center">
+            <i class="fa-solid fa-money-bill me-3"></i>
+            <p>Money Guarantee</p>
+        </div>
+        <div class="d-flex col-md-3 col-6 justify-content-center">
+            <i class="fa-solid fa-headset me-3"></i>
+            <p>Online Support</p>
+        </div>
+        <div class="d-flex col-md-3 col-6  justify-content-center">
+            <i class="fa-solid fa-credit-card me-3"></i>
+            <p class="">Secure Payment</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="bestSeller  my-5">
+        <h2 class="text-uppercase text-center"><i class="fa-regular fa-star"></i> best sellers <i
+                class="fa-regular fa-star"></i></h2>
+
+        <div class="d-flex flex-wrap justify-content-center gap-2 m-auto">
+
+
+
+            <div class=" bestItem rounded-3 text-center gtadient py-3 position-relative">
+                <img class=" imageItem m-auto" src="images/mouse.png" alt="">
+                <div class="titleBest">
+                    <h3 class=" text-center ">Microsoft Mouse</h3>
+                    <p>Computer Accessories</p>
+                    <p><span class="fw-bold">Price</span>: 20$</p>
+                </div>
+            </div>
+
+            <div class=" bestItem rounded-3 text-center gtadient py-3 position-relative">
+                <img class=" imageItem m-auto" src="images/monitor1.png" alt="">
+                <div class="titleBest">
+                    <h3 class=" text-center ">Microsoft Mouse</h3>
+                    <p>Computer Accessories</p>
+                    <p><span class="fw-bold">Price</span>: 20$</p>
+                </div>
+            </div>
+
+            <div class=" bestItem rounded-3 text-center gtadient py-3 position-relative">
+                <img class=" imageItem m-auto" src="images/headphone.png" alt="">
+                <div class="titleBest">
+                    <h3 class=" text-center ">Microsoft Mouse</h3>
+                    <p>Computer Accessories</p>
+                    <p><span class="fw-bold">Price</span>: 20$</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <h2 class="text-center my-5">Products</h2>
+    <div class="container ptoductContainer m-auto ">
+        <div id="products" class="products d-flex flex-wrap justify-content-center gap-4 m-auto">
+
+        </div>
+
+    </div>
+
+
+    <div class="cartTab">
+        <h1 class="text-center">Shopping Cart</h1>
+        <div class="listCart">
+            <div class="itemm">
+                <div class="image">
+                    <img src="images/headphone.png" alt="">
+
+                </div>
+                <div class="name">
+                    Name<i class="fa fa-trash text-danger"></i>
+                </div>
+                <div class="totalPrice">$200</div>
+                <div class="quantity">
+                    <span class="minus"><</span>
+                            <span>1</span>
+                            <span class="plus">></span>
+                </div>
+            </div>
+            <div class="itemm">
+                <div class="image">
+                    <img src="images/smartWatch.png" alt="">
+                </div>
+                <div class="name">
+                    Name<i class="fa fa-trash text-danger"></i>
+                </div>
+                <div class="totalPrice">$200</div>
+                <div class="quantity">
+                    <span class="minus"><</span>
+                            <span>1</span>
+                            <span class="plus">></span>
+                </div>
+            </div>
+            <div class="itemm">
+                <div class="image">
+                    <img src="images/smartWatch.png" alt="">
+                </div>
+                <div class="name">
+                    Name<i class="fa fa-trash text-danger"></i>
+                </div>
+                <div class="totalPrice">$200</div>
+                <div class="quantity">
+                    <span class="minus"><</span>
+                            <span>1</span>
+                            <span class="plus">></span>
+                </div>
+            </div>
+            <div class="itemm">
+                <div class="image">
+                    <img src="images/mouse.png" alt="">
+                </div>
+                <div class="name">
+                    Name<i class="fa fa-trash text-danger"></i>
+                </div>
+                <div class="totalPrice">$200</div>
+                <div class="quantity">
+                    <span class="minus"><</span>
+                            <span>1</span>
+                            <span class="plus">></span>
+                </div>
+            </div>
+            <div class="itemm">
+                <div class="image">
+                    <img src="images/labBackgrounde.png" alt="">
+                </div>
+                <div class="name">
+                    Name<i class="fa fa-trash text-danger"></i>
+                </div>
+                <div class="totalPrice">$200</div>
+                <div class="quantity">
+                    <span class="minus"><</span>
+                            <span>1</span>
+                            <span class="plus">></span>
+                </div>
+            </div>
+            <div class="itemm">
+                <div class="image">
+                    <img src="images/whiteCamera.png" alt="">
+                </div>
+                <div class="name">
+                    Name<i class="fa fa-trash text-danger"></i>
+                </div>
+                <div class="totalPrice">$200</div>
+                <div class="quantity">
+                    <span class="minus"><</span>
+                            <span>1</span>
+                            <span class="plus">></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="btnm">
+            <button class="close">CLOSE</button>
+            <button id="CheckOut-btn"  class="checkOut"><a class="text-decoration-none text-black" href="checkOut.html">CHECK OUT</a></button>
+        </div>
+    </div>
+
+    <div class="wishListTab">
+        <h1 class="text-center">wish list</h1>
+        <div class="listCart">
+
+            <div class="itemm">
+                <div class="image">
+                    <img src="images/whiteCamera.png" alt="">
+
+                </div>
+                <div class="name">
+                    Name<i class="fa fa-trash text-danger"></i>
+                </div>
+                <div class="totalPrice">$200</div>
+                <div class="quantity">
+                    <span class="minus"><</span>
+                            <span>1</span>
+                            <span class="plus">></span>
+                </div>
+            </div>
+            <div class="itemm">
+                <div class="image">
+                    <img src="images/whiteCamera.png" alt="">
+
+                </div>
+                <div class="name">
+                    Name<i class="fa fa-trash text-danger"></i>
+                </div>
+                <div class="totalPrice">$200</div>
+                <div class="quantity">
+                    <span class="minus"><</span>
+                            <span>1</span>
+                            <span class="plus">></span>
+                </div>
+            </div>
+            <div class="itemm">
+                <div class="image">
+                    <img src="images/whiteCamera.png" alt="">
+
+                </div>
+                <div class="name">
+                    Name<i class="fa fa-trash text-danger"></i>
+                </div>
+                <div class="totalPrice">$200</div>
+                <div class="quantity">
+                    <span class="minus"><</span>
+                            <span>1</span>
+                            <span class="plus">></span>
+                </div>
+            </div>
+            <div class="itemm">
+                <div class="image">
+                    <img src="images/headphone.png" alt="">
+
+                </div>
+                <div class="name">
+                    Name<i class="fa fa-trash text-danger"></i>
+                </div>
+                <div class="totalPrice">$200</div>
+                <div class="quantity">
+                    <span class="minus"><</span>
+                            <span>1</span>
+                            <span class="plus">></span>
+                </div>
+            </div>
+            <div class="itemm">
+                <div class="image">
+                    <img src="images/whiteCamera.png" alt="">
+
+                </div>
+                <div class="name">
+                    Name<i class="fa fa-trash text-danger"></i>
+                </div>
+                <div class="totalPrice">$200</div>
+                <div class="quantity">
+                    <span class="minus"><</span>
+                            <span>1</span>
+                            <span class="plus">></span>
+                </div>
+            </div>
+            <div class="itemm">
+                <div class="image">
+                    <img src="images/whiteCamera.png" alt="">
+
+                </div>
+                <div class="name">
+                    Name<i class="fa fa-trash text-danger"></i>
+                </div>
+                <div class="totalPrice">$200</div>
+                <div class="quantity">
+                    <span class="minus"><</span>
+                            <span>1</span>
+                            <span class="plus">></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="btnm">
+            <button class="closeWish">CLOSE</button>
+        </div>
+    </div>
+
+
+    <section class="section__container subscribe__container">
+        <h2 class="section__header">Subscribe to get the latest news about us</h2>
+        <p class="subscribe__description">
+          We recommend you to subscribe to our newspaper, enter your email below
+          to get our daily update about us.
+        </p>
+        <form>
+          <input type="text" placeholder="Enter your email address" />
+          <button>Subscribe</button>
+        </form>
+      </section>
+
+      <footer>
+        <div class="section__container footer__container" id="support">
+          <div class="footer__col">
+            <div class="footer__logo">
+              <h1 class="text-light footer-h1">ElectroX</h1>
+            </div>
+            <p>Your trusted source for cutting-edge electronics, smart devices, and home tech solutions.</p>
+            <p class="footer-icons">
+              <i class="ri-github-fill"></i>
+              <i class="ri-facebook-circle-fill"></i>
+              <i class="ri-linkedin-box-fill"></i>
+              <i class="ri-instagram-fill"></i>
+            </p>
+          </div>
+          <div class="footer__col">
+            <h4>Shop Categories</h4>
+            <p>Smartphones & Accessories</p>
+            <p>Home Appliances</p>
+            <p>Gaming Consoles</p>
+            <p>Audio & Wearables</p>
+          </div>
+          <div class="footer__col">
+            <h4>Customer Support</h4>
+            <p>Order Tracking</p>
+            <p>Warranty & Repairs</p>
+            <p>FAQs</p>
+            <p>Contact Us</p>
+          </div>
+          <div class="footer__col">
+            <h4>Contact Us</h4>
+            <p>Email: support@electrox.com</p>
+            <p>Address: 123 Tech Avenue, Silicon Valley, CA 94043, USA</p>
+            <p>Phone: +1 (800) 123-4567</p>
+          </div>
+        </div>
+      </footer>
+      
+
+
+
+
+
+      <!-- json-server --watch db.json -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+    <script src="./JS/"></script>
+</body>
+
+</html>

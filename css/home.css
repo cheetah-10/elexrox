@@ -1,0 +1,343 @@
+.bg-basicColor1{
+    background-color: #121213 ;
+}
+.bg-basicColor2{
+    background-color: #292B30;
+    /* background-color: ; */
+}
+.bg-basicColorGradientRight{
+    background-image: linear-gradient(to right, #27282c ,#020202 );
+}
+.bg-basicColorGradientLeft{
+    background-image: linear-gradient(to left, #27282c , #020202);
+}
+.bg-basicColorGradientTop{
+    background-image: linear-gradient(to top, #27282c , #020202);
+}
+.bg-basicColorGradientBottom{
+    background-image: linear-gradient(to bottom, #27282c , #020202);
+}
+.txt-basicColor1{
+    color: white ;
+}
+
+.nav-link{
+    color: white !important;
+}
+.form-control {
+    height: 35px;
+}
+.btn{
+    height: 35px;   
+}
+
+.gtadient{
+    background-image: radial-gradient( circle 382px at 50% 50.2%,  #5e275e 0.1%, #020c2e 100.2% );
+}
+
+.w-60{
+    width: 60%;
+}
+
+header{
+    margin-top: 65px;
+}
+header img{
+    width: 100%;
+}
+
+.bestItem{
+    width: 300px;
+    height: 350px;
+}
+.imageItem{
+    height: 200px;
+}
+.titleBest{
+    height: 100px;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    left: 0;  
+}
+.productItem{
+    width: 300px;
+    height: 500px;
+}
+.productImageItem{
+    height: 230px;
+}
+.titleProduct{
+    height: fit-content;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    left: 0;
+    padding-inline: 10px;
+}
+
+.btnaddcart{
+    opacity: 0;
+    transition-duration: .5s;
+}
+.productItem:hover .btnaddcart{
+    opacity: 1;
+    
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+header .innerHeader{
+    /* height: 50vh; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+    header .img{
+        width: 80%;
+    }
+    header img{
+        width: 180%;
+        padding-right: 50px;
+    }
+    .bestItem{
+        width: 200px;
+        height: 250px;
+    }
+    .imageItem{
+        height: 100px;
+    }
+    
+}
+
+.icon-cart,.wishList {
+    position: relative;
+}
+.icon-cart i{
+    width: 30px;
+    font-size: 25px;
+}
+
+img{
+    filter: drop-shadow(0 10px 20px rgba(82, 70, 70, 0.6));
+}
+
+.ptoductContainer{
+    transition: all .5s;
+}
+.cartTab, .wishListTab{
+    width: 400px;
+    background-color: rgb(229, 221, 221);
+    color: black;
+    position: fixed;
+    top: 65px;
+    bottom: 0;
+    right: -400px;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    transition-duration: .5;
+}
+body.showCart .cartTab{
+    top: 65px;
+    bottom: 0;
+    right: 0px;
+}
+body.showWish .wishListTab{
+    top: 65px;
+    bottom: 0;
+    right: 0px;
+}
+
+body.showCart .ptoductContainer{
+    transform: translateX(-250px);
+}
+body.wishListTab .ptoductContainer{
+    transform: translateX(-250px);
+}
+
+.cartTab h1, .wishListTab h1{
+    padding: 20px;
+    margin:0;
+    font-weight: 300;
+}
+.cartTab .btnm , .wishListTab .btnm{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+}
+.wishListTab .btnm{
+    display: grid;
+    grid-template-columns:repeat(1, 1fr) ;
+}
+
+.cartTab .btnm button, .wishListTab .btnm button{
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.cartTab .btnm .close .wishListTab .btnm .close{
+    background-color: black;
+    color: aliceblue;
+   
+}
+.cartTab .listCart .itemm img, .wishListTab .listCart .itemm img{
+    width: 100%;
+    padding: 10px;
+}
+.cartTab .listCart .itemm, .wishListTab .listCart .itemm{
+    display: grid;
+    grid-template-columns: 70px 150px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+.listCart .quantity span, .wishListTab .quantity span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #555;
+    color: #eee;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.listCart .quantity span:nth-child(2){
+    background-color: transparent;
+    color: #302929;
+}
+.listCart .itemm:nth-child(even){
+    background-color: rgb(209, 202, 193);
+}
+
+.listCart{
+    overflow: auto;
+}
+.listCart::-webkit-scrollbar{
+    width: 0;
+}
+
+/**********footer*/
+
+.section__container {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 5rem 1rem;
+  }
+  
+  .section__header {
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+  }
+
+.subscribe__container {
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+}
+
+.subscribe__description {
+  color: var(--primary-color);
+}
+
+.subscribe__container form {
+  position: absolute;
+  width: calc(100% - 2rem);
+  bottom: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.subscribe__container input {
+  width: 100%;
+  padding: 1rem 2rem;
+  font-size: 0.9rem;
+  outline: none;
+  border: none;
+}
+
+.subscribe__container button {
+  padding: 1rem 3rem;
+  color: var(--white);
+  outline: none;
+  border: none;
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+footer {
+  background-color: var(--primary-color);
+}
+
+.footer-h1{
+    color: #fff !important;
+}
+
+.footer-icons i{
+  font-size: 40px;
+}
+.footer__container {
+  padding-top: 6rem;
+  display: grid;
+  grid-template-columns: 350px repeat(3, 1fr);
+  gap: 5rem;
+}
+
+.footer__logo {
+  width: 50%;
+  color: var(--white);
+  margin-bottom: 1.5rem;
+}
+
+.footer__col i {
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.footer__col h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--white);
+  margin-bottom: 1.5rem;
+}
+
+.footer__col p {
+  margin-bottom: 1rem;
+  color: var(--text-light);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.footer__col p:hover {
+  color: var(--white);
+}
+
+.footer__bar {
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--white);
+  border-top: 1px solid var(--white);
+}
+
+@media (width < 900px) {
+    
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (width < 600px) {
+    .footer__container {
+        gap: 2rem;
+      }
+}

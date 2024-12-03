@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>managing</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/cruds.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center m-5 position-relative">Manage Products</h1>
+        <div class="border-1 border-end-0 border-start-0 dotted">
+            <label class="p-2" for="Productname">Product Name</label>
+            <input  class="form-control p-2" id="Productname" type="text" placeholder="Product Name">
+            <label class="p-2" for="Price">Product Price</label>
+            <input class="form-control p-2 mb-3"  id="Price" type="number" placeholder="$2999">
+            <button onclick="addProduct()" class="bg-danger mb-3 border-0 py-1 px-4 rounded-1 m-auto">Add</button>
+        </div>
+        <div class="container mt-5"> 
+            <table class="w-100 text-center">
+                <thead class="">
+                    <tr class="mt-3">
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                
+                <tbody class="mt-5" id="data">
+                   
+                </tbody>
+                
+            </table>
+        </div>
+    </div>
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/cruds.js"></script>
+</body> 
+</html>
